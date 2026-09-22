@@ -1,6 +1,6 @@
 # Netmiko – Automatizacija konfiguracije mrežnih uređaja
 
-Python projekt za automatizaciju konfiguracije, dohvaćanje rezultata i izradu sigurnosnih kopija mrežnih uređaja pomoću biblioteke **Netmiko**.
+Python projekt za automatizaciju konfiguracije, dohvaćanje rezultata i izradu sigurnosnih kopija mrežnih uređaja pomoću biblioteke **Netmiko**. 
 
 ---
 
@@ -30,7 +30,7 @@ Netmiko/
 │   └── Usmjernik3_2026-9-11_sigurnosna_kopija.txt
 │
 └── .venv/
-
+```
 **🔧 konfiguracija_uredaja**
 
 **Ovaj direktorij sadrži Python skriptu i konfiguracijske datoteke za konfiguriranje mrežnih uređaja.**
@@ -41,7 +41,7 @@ usmjernik1.txt – konfiguracijske naredbe za prvi usmjernik.
 usmjernik2.txt – konfiguracijske naredbe za drugi usmjernik.
 usmjernik3.txt – konfiguracijske naredbe za treći usmjernik.
 
-**📊 rezultati_uredaja**
+**📊 rezultati_uredaja** 
 
 **Ovaj direktorij sadrži skriptu za dohvaćanje rezultata i izlaza s mrežnih uređaja.**
 
