@@ -1,0 +1,14 @@
+banner motd c
+Neautoriziran ulaz zabranjen! c
+interface serial2/0
+ip address 100.0.0.1 255.255.255.252
+no shutdown
+exit
+interface loopback 1
+ip address 1.1.1.1 255.255.255.255
+no shutdown
+exit
+router ospf 1
+network 0.0.0.0 255.255.255.255 area 0
+distance 60
+default-information originate
