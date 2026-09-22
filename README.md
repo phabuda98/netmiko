@@ -73,7 +73,9 @@ Python 3.x
 Netmiko
 SSH pristup mrežnim uređajima
 ```
+
 **Instalacija Netmiko biblioteke**
+        
         pip install netmiko
 
 ## 🚀 Korištenje
@@ -107,7 +109,7 @@ rezultati_uredaja/
 
 Pokrenite:
 
-    python sigurnosna_kopija_uredaja/netmiko_sigurnosna_kopija_uredaja.py
+        python sigurnosna_kopija_uredaja/netmiko_sigurnosna_kopija_uredaja.py
 
 Konfiguracije uređaja spremaju se kao sigurnosne kopije u direktorij:
 
