@@ -36,7 +36,7 @@ Netmiko/
 **Ovaj direktorij sadrži Python skriptu i konfiguracijske datoteke za konfiguriranje mrežnih uređaja.**
 ```text
 netmiko_konfiguracija_uredaja.py – glavna skripta za povezivanje s uređajima i slanje konfiguracijskih naredbi.
-usmjernici.txt – popis mrežnih uređaja.
+usmjernici.txt – popis IP adresa mrežnih uređaja.
 usmjernik1.txt – konfiguracijske naredbe za prvi usmjernik.
 usmjernik2.txt – konfiguracijske naredbe za drugi usmjernik.
 usmjernik3.txt – konfiguracijske naredbe za treći usmjernik.
@@ -46,7 +46,7 @@ usmjernik3.txt – konfiguracijske naredbe za treći usmjernik.
 **Ovaj direktorij sadrži skriptu za dohvaćanje rezultata i izlaza s mrežnih uređaja.**
 ```text
 netmiko_rezultati_uredaja.py – Python skripta za dohvaćanje podataka s mrežnih uređaja.
-usmjernici.txt – popis mrežnih uređaja.
+usmjernici.txt – popis IP adresa mrežnih uređaja.
 Usmjernik1_rezultati.txt – rezultati dobiveni s prvog usmjernika.
 Usmjernik2_rezultati.txt – rezultati dobiveni s drugog usmjernika.
 Usmjernik3_rezultati.txt – rezultati dobiveni s trećeg usmjernika.
@@ -56,7 +56,7 @@ Usmjernik3_rezultati.txt – rezultati dobiveni s trećeg usmjernika.
 **Ovaj direktorij koristi se za izradu i spremanje sigurnosnih kopija konfiguracija mrežnih uređaja.**
 ```text
 netmiko_sigurnosna_kopija_uredaja.py – Python skripta za izradu sigurnosnih kopija konfiguracija.
-usmjernici.txt – popis mrežnih uređaja.
+usmjernici.txt – popis IP adresa mrežnih uređaja.
 Usmjernik1_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije prvog usmjernika.
 Usmjernik2_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije drugog usmjernika.
 Usmjernik3_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije trećeg usmjernika.
@@ -75,15 +75,15 @@ Za pokretanje projekta potrebno je imati:
 
 Projekt se sastoji od tri osnovna dijela:
 ```text
-**Konfiguracija mrežnih uređaja**
-**Dohvaćanje rezultata s uređaja**
-**Izrada sigurnosnih kopija konfiguracija**
+Konfiguracija mrežnih uređaja
+Dohvaćanje rezultata s uređaja
+Izrada sigurnosnih kopija konfiguracija
 ```
 **1. Konfiguracija uređaja**
 
 Pokrenite:
 
-    python konfiguracija_uredaja/netmiko_konfiguracija_uredaja.py
+        python konfiguracija_uredaja/netmiko_konfiguracija_uredaja.py
 
 Skripta se povezuje s uređajima i primjenjuje konfiguracijske naredbe definirane u odgovarajućim .txt datotekama.
 
@@ -91,7 +91,7 @@ Skripta se povezuje s uređajima i primjenjuje konfiguracijske naredbe definiran
 
 Pokrenite:
 
-    python rezultati_uredaja/netmiko_rezultati_uredaja.py
+        python rezultati_uredaja/netmiko_rezultati_uredaja.py
 
 Rezultati komunikacije s uređajima spremaju se u direktorij:
 
@@ -115,12 +115,12 @@ Prije pokretanja skripti potrebno je definirati podatke za povezivanje s mrežni
 
 Potrebni podaci mogu uključivati:
 ```text
-**IP adresu uređaja**
-**Korisničko ime**
-**Lozinku**
-**Tip uređaja (device_type)**
-**SSH postavke**
-**Konfiguracijske naredbe**
+IP adresu uređaja
+Korisničko ime
+Lozinku
+Tip uređaja (device_type)
+SSH postavke
+Konfiguracijske naredbe
 ```
 **Važno: Nemojte spremati stvarne lozinke, privatne ključeve ili druge osjetljive podatke u GitHub repozitorij.**
 
@@ -130,9 +130,9 @@ Cilj projekta je demonstrirati primjenu Python programskog jezika i biblioteke N
 
 Projekt omogućuje:
 ```text
-**🔧 automatiziranu konfiguraciju uređaja**
-**📊 dohvaćanje rezultata s uređaja**
-**💾 izradu sigurnosnih kopija konfiguracija**
-**🔐 povezivanje s uređajima putem SSH-a**
-**🤖 automatizaciju ponavljajućih mrežnih zadataka**
+🔧 automatiziranu konfiguraciju uređaja
+📊 dohvaćanje rezultata s uređaja
+💾 izradu sigurnosnih kopija konfiguracija
+🔐 povezivanje s uređajima putem SSH-a
+🤖 automatizaciju ponavljajućih mrežnih zadataka
 ```
