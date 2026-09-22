@@ -2,11 +2,8 @@
 
 Python projekt za automatizaciju konfiguracije, dohvaćanje rezultata i izradu sigurnosnih kopija mrežnih uređaja pomoću biblioteke **Netmiko**.
 
----
-
 ## 📁 Struktura projekta
 
-```text
 Netmiko/
 ├── konfiguracija_uredaja/
 │   ├── netmiko_konfiguracija_uredaja.py
