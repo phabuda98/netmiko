@@ -31,7 +31,7 @@ Netmiko/
 │
 └── .venv/
 ```
-**🔧 konfiguracija_uredaja**
+## 🔧 konfiguracija_uredaja
 
 **Ovaj direktorij sadrži Python skriptu i konfiguracijske datoteke za konfiguriranje mrežnih uređaja.**
 ```text
@@ -41,7 +41,7 @@ usmjernik1.txt – konfiguracijske naredbe za prvi usmjernik.
 usmjernik2.txt – konfiguracijske naredbe za drugi usmjernik.
 usmjernik3.txt – konfiguracijske naredbe za treći usmjernik.
 ```
-**📊 rezultati_uredaja** 
+## 📊 rezultati_uredaja 
 
 **Ovaj direktorij sadrži skriptu za dohvaćanje rezultata i izlaza s mrežnih uređaja.**
 ```text
@@ -51,7 +51,7 @@ Usmjernik1_rezultati.txt – rezultati dobiveni s prvog usmjernika.
 Usmjernik2_rezultati.txt – rezultati dobiveni s drugog usmjernika.
 Usmjernik3_rezultati.txt – rezultati dobiveni s trećeg usmjernika.
 ```
-**💾 sigurnosna_kopija_uredaja**
+## 💾 sigurnosna_kopija_uredaja
 
 **Ovaj direktorij koristi se za izradu i spremanje sigurnosnih kopija konfiguracija mrežnih uređaja.**
 ```text
@@ -61,7 +61,7 @@ Usmjernik1_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije p
 Usmjernik2_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije drugog usmjernika.
 Usmjernik3_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije trećeg usmjernika.
 ```
-**⚙️ Zahtjevi**
+## ⚙️ Zahtjevi
 
 Za pokretanje projekta potrebno je imati:
 ```text
@@ -71,7 +71,7 @@ Za pokretanje projekta potrebno je imati:
 **Instalacija Netmiko biblioteke**
     pip install netmiko
 ```
-**🚀 Korištenje**
+## 🚀 Korištenje
 
 Projekt se sastoji od tri osnovna dijela:
 ```text
@@ -109,29 +109,30 @@ sigurnosna_kopija_uredaja/
 
 Datoteke sigurnosnih kopija uključuju datum izrade, što omogućuje lakše praćenje različitih verzija konfiguracija.
 
-**🔧 Konfiguracija**
+## 🔧 Konfiguracija
 
 Prije pokretanja skripti potrebno je definirati podatke za povezivanje s mrežnim uređajima.
 
 Potrebni podaci mogu uključivati:
-
+```text
 **IP adresu uređaja**
 **Korisničko ime**
 **Lozinku**
 **Tip uređaja (device_type)**
 **SSH postavke**
 **Konfiguracijske naredbe**
+```
+**Važno: Nemojte spremati stvarne lozinke, privatne ključeve ili druge osjetljive podatke u GitHub repozitorij.**
 
-Važno: Nemojte spremati stvarne lozinke, privatne ključeve ili druge osjetljive podatke u GitHub repozitorij.
-
-**🎯 Cilj projekta**
+## 🎯 Cilj projekta
 
 Cilj projekta je demonstrirati primjenu Python programskog jezika i biblioteke Netmiko za automatizaciju administracije mrežnih uređaja.
 
 Projekt omogućuje:
-
+```text
 **🔧 automatiziranu konfiguraciju uređaja**
 **📊 dohvaćanje rezultata s uređaja**
 **💾 izradu sigurnosnih kopija konfiguracija**
 **🔐 povezivanje s uređajima putem SSH-a**
 **🤖 automatizaciju ponavljajućih mrežnih zadataka**
+```
