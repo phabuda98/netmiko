@@ -73,8 +73,8 @@ Python 3.x
 Netmiko
 SSH pristup mrežnim uređajima
 ```
-*Instalacija Netmiko biblioteke*
-    pip install netmiko
+**Instalacija Netmiko biblioteke**
+        pip install netmiko
 
 ## 🚀 Korištenje
 
