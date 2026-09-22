@@ -34,51 +34,51 @@ Netmiko/
 **🔧 konfiguracija_uredaja**
 
 **Ovaj direktorij sadrži Python skriptu i konfiguracijske datoteke za konfiguriranje mrežnih uređaja.**
-
+```text
 netmiko_konfiguracija_uredaja.py – glavna skripta za povezivanje s uređajima i slanje konfiguracijskih naredbi.
 usmjernici.txt – popis mrežnih uređaja.
 usmjernik1.txt – konfiguracijske naredbe za prvi usmjernik.
 usmjernik2.txt – konfiguracijske naredbe za drugi usmjernik.
 usmjernik3.txt – konfiguracijske naredbe za treći usmjernik.
-
+```
 **📊 rezultati_uredaja** 
 
 **Ovaj direktorij sadrži skriptu za dohvaćanje rezultata i izlaza s mrežnih uređaja.**
-
+```text
 netmiko_rezultati_uredaja.py – Python skripta za dohvaćanje podataka s mrežnih uređaja.
 usmjernici.txt – popis mrežnih uređaja.
 Usmjernik1_rezultati.txt – rezultati dobiveni s prvog usmjernika.
 Usmjernik2_rezultati.txt – rezultati dobiveni s drugog usmjernika.
 Usmjernik3_rezultati.txt – rezultati dobiveni s trećeg usmjernika.
-
+```
 **💾 sigurnosna_kopija_uredaja**
 
 **Ovaj direktorij koristi se za izradu i spremanje sigurnosnih kopija konfiguracija mrežnih uređaja.**
-
+```text
 netmiko_sigurnosna_kopija_uredaja.py – Python skripta za izradu sigurnosnih kopija konfiguracija.
 usmjernici.txt – popis mrežnih uređaja.
 Usmjernik1_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije prvog usmjernika.
 Usmjernik2_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije drugog usmjernika.
 Usmjernik3_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije trećeg usmjernika.
-
+```
 **⚙️ Zahtjevi**
 
 Za pokretanje projekta potrebno je imati:
-
+```text
 **Python 3.x**
 **Netmiko**
 **SSH pristup mrežnim uređajima**
 **Instalacija Netmiko biblioteke**
     pip install netmiko
-
+```
 **🚀 Korištenje**
 
 Projekt se sastoji od tri osnovna dijela:
-
+```text
 **Konfiguracija mrežnih uređaja**
 **Dohvaćanje rezultata s uređaja**
 **Izrada sigurnosnih kopija konfiguracija**
-
+```
 **1. Konfiguracija uređaja**
 
 Pokrenite:
