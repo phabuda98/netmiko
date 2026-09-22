@@ -31,6 +31,7 @@ Netmiko/
 │
 └── .venv/
 ```
+
 ## 🔧 konfiguracija_uredaja
 
 **Ovaj direktorij sadrži Python skriptu i konfiguracijske datoteke za konfiguriranje mrežnih uređaja.**
@@ -41,6 +42,7 @@ usmjernik1.txt – konfiguracijske naredbe za prvi usmjernik.
 usmjernik2.txt – konfiguracijske naredbe za drugi usmjernik.
 usmjernik3.txt – konfiguracijske naredbe za treći usmjernik.
 ```
+
 ## 📊 rezultati_uredaja 
 
 **Ovaj direktorij sadrži skriptu za dohvaćanje rezultata i izlaza s mrežnih uređaja.**
@@ -51,6 +53,7 @@ Usmjernik1_rezultati.txt – rezultati dobiveni s prvog usmjernika.
 Usmjernik2_rezultati.txt – rezultati dobiveni s drugog usmjernika.
 Usmjernik3_rezultati.txt – rezultati dobiveni s trećeg usmjernika.
 ```
+
 ## 💾 sigurnosna_kopija_uredaja
 
 **Ovaj direktorij koristi se za izradu i spremanje sigurnosnih kopija konfiguracija mrežnih uređaja.**
@@ -61,16 +64,18 @@ Usmjernik1_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije p
 Usmjernik2_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije drugog usmjernika.
 Usmjernik3_2026-9-11_sigurnosna_kopija.txt – sigurnosna kopija konfiguracije trećeg usmjernika.
 ```
+
 ## ⚙️ Zahtjevi
 
 Za pokretanje projekta potrebno je imati:
 ```text
-**Python 3.x**
-**Netmiko**
-**SSH pristup mrežnim uređajima**
-**Instalacija Netmiko biblioteke**
-    pip install netmiko
+Python 3.x
+Netmiko
+SSH pristup mrežnim uređajima
 ```
+*Instalacija Netmiko biblioteke*
+    pip install netmiko
+
 ## 🚀 Korištenje
 
 Projekt se sastoji od tri osnovna dijela:
@@ -79,6 +84,7 @@ Konfiguracija mrežnih uređaja
 Dohvaćanje rezultata s uređaja
 Izrada sigurnosnih kopija konfiguracija
 ```
+
 **1. Konfiguracija uređaja**
 
 Pokrenite:
@@ -122,6 +128,7 @@ Tip uređaja (device_type)
 SSH postavke
 Konfiguracijske naredbe
 ```
+
 **Važno: Nemojte spremati stvarne lozinke, privatne ključeve ili druge osjetljive podatke u GitHub repozitorij.**
 
 ## 🎯 Cilj projekta
